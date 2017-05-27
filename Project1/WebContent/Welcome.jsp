@@ -12,6 +12,7 @@
 	<form action="Amanda.jsp">
 		<input id="conlin2" type="submit" value="About Amanda Conlin" />
 	</form>
+	<p>hello</p>
 	</body>
 	<style>
 #fay1{
