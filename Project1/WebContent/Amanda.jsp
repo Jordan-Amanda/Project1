@@ -3,7 +3,19 @@
 		<title>Amanda's Page</title>
 	</head>
 	<body>
-	<center><img id="conlin1" src="https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/11694863_895968983802548_3882590995493802209_n.jpg?oh=4793eee8c7cfaeb6dcf00952c99e4bd8&oe=59BE3586">
+	 <div class="jumbotron">
+	 <div class="navigation">
+	 <ul>
+	 	<li>About</li>
+	 	<li>Work</li>
+	 	<li>Contact</li>
+	 </ul>
+	 </div>
+    <h1>Hello I'm Amanda</h1>
+    <h2>A Web Designer, Developer and Programmer</h2>
+ 	 </div>
+	 <center>
+	<img id="conlin1" src="https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/11694863_895968983802548_3882590995493802209_n.jpg?oh=4793eee8c7cfaeb6dcf00952c99e4bd8&oe=59BE3586">
 	<img id="conlin2" src="https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/995833_514417965290987_806191367_n.jpg?oh=95acebfe0bb4a76f596c21f47c481395&oe=59B86694">
 	<img id="conlin3" src="https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/p960x960/1780948_659831967416252_6823679846900867884_o.jpg?oh=fb47e28136d5c77a93789b2e76054cac&oe=59AC859D">
 	<p> Amanda Conlin </p>
@@ -31,7 +43,6 @@ Please, feel free to check out my social media channels above to learn more abou
 	</form>
 </center>
 	<div class="container pinkbackground" style="margin-top: 10px;">
-		<div class="jumbotron" >
 			<form action="SendEmail" method=POST>
 				<table>
 					<thead>
@@ -63,23 +74,57 @@ Please, feel free to check out my social media channels above to learn more abou
 					</tbody>
 				</table>
 			</form>
-		</div>
 	</body>
 <style>
-#conlin1{
+#conlin1,#conlin2,#conlin3 {
 width: 180;
 height: 180;
 border-radius: 50%;
 }
-#conlin2{
-width: 180;
-height: 180;
-border-radius: 50%;
+.navigation {
+  height: auto;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
 }
-#conlin3{
-width: 180;
-height: 180;
-border-radius: 50%;
+.navigation ul {
+  padding: 0;
+}
+.navigation li {
+  color: #666666;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 20px;
+  text-transform: uppercase;
+}
+.jumbotron {
+  background: url("https://res.cloudinary.com/simpleview/image/upload/c_fill,f_auto,h_537,q_50,w_1084/v1/clients/omaha/OmahaSkyline_fountain_04fab722-1e4b-4daa-a2b0-ac604ee9d765.jpg") no-repeat center center fixed;
+  height: 400px;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  color: #FFF;
+  font-family: 'Ruda', sans-serif;
+  font-size: 70px;
+  font-weight: 900;
+  margin: 0;
+  padding-top: 120px;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2 {
+  color: #FFF;
+  font-family: 'Catamaran', sans-serif;
+  margin: 0;
+  text-align: center;
 }
 </style>
 </html>
