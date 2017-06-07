@@ -17,6 +17,30 @@ $(document).ready(function(){
   });
 });
 </script>
+<script type="text/javascript">
+setTimeout(function start (){
+	  $('.bar').each(function(i){  
+	    var $bar = $(this);
+	    $(this).append('<span class="count"></span>')
+	    setTimeout(function(){
+	      $bar.css('width', $bar.attr('data-percent'));      
+	    }, i*100);
+	  });
+
+	$('.count').each(function () {
+	    $(this).prop('Counter',0).animate({
+	        Counter: $(this).parent('.bar').attr('data-percent')
+	    }, {
+	        duration: 2000,
+	        easing: 'swing',
+	        step: function (now) {
+	            $(this).text(Math.ceil(now) +'%');
+	        }
+	    });
+	});
+
+	}, 500)
+</script>
 		<title>Amanda's Page</title>
 	</head>
 	<body>
@@ -64,7 +88,7 @@ $(document).ready(function(){
 				Outside work, I play Volleyball for UNO at the division 1 level. 
 				Please, feel free to check out my social media channels above to learn more about me.</p>
 <form action="Amanda Conlin Resume.pdf">
-		<input type="submit" value="View my Resume" />
+		<button class="button" style="vertical-align:middle"><span>View My Resume </span></button>
 </form>
 		<br>
 	</div>
@@ -74,44 +98,64 @@ $(document).ready(function(){
 		<table class="container">
 					<thead>
 						<tr>
-							<th><h1>Language / Software</h1></th>
-							<th><h1>Experience Percentage</h1></th>
+							<th style="width: 70%;"><h1>Language / Software</h1></th>
+							<th style="width: 30%;"><h1>Relevant Course work</h1></th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td>Java</td>
+							<td><div class="bar cf" data-percent="85%">
+							<span class="label">Java</span> </div></td>
+							<td>Java 1</td>
 						</tr>
 						<tr>
-							<td>JavaScript</td>
+							<td><div class="bar cf even" data-percent="75%">
+							<span class="label light">JavaScript</span></div></td>
 						</tr>
 						<tr>
-							<td>C</td>
+							<td><div class="bar cf" data-percent="65%">
+							<span class="label">C</span></div></td>
 						</tr>
 						<tr>
-							<td>HTML / CSS</td>
+							<td><div class="bar cf even" data-percent="90%">
+							<span class="label light">HTML</span></div></td>
 						</tr>
 						<tr>
-							<td>AngularJS</td>
+							<td><div class="bar cf" data-percent="90%">
+							<span class="label">CSS</span></div></td>
 						</tr>
 						<tr>
-							<td>Linux</td>
+							<td><div class="bar cf even" data-percent="90%">
+							<span class="label light">PHP</span></div></td>
 						</tr>
 						<tr>
-							<td>Perl</td>
+							<td><div class="bar cf" data-percent="80%">
+							<span class="label">AngularJS</span></div></td>
 						</tr>
 						<tr>
-							<td>Microsoft Word, Excel & Powerpoint</td>
+							<td><div class="bar cf even" data-percent="85%">
+								<span class="label light">Linux</span></div></td>
 						</tr>
 						<tr>
-							<td>Tomcat, Bootstrap & UNIX</td>
+							<td><div class="bar cf" data-percent="75%">
+							<span class="label">Perl</span></div></td>
 						</tr>
 						<tr>
-							<td>Ricola3, Vim, Eclipse, Apache Servers & Oracle</td>
+							<td><div class="bar cf even" data-percent="80%">
+							<span class="label light">Microsoft Tools</span></div></td>
+						</tr>
+						<tr>
+							<td><div class="bar cf" data-percent="70%">
+								<span class="label">Tomcat & UNIX</span></div></td>
+						</tr>
+						<tr>
+							<td><div class="bar cf even" data-percent="70%">
+								<span class="label light">Ricola3 </span></div></td>
 						</tr>
 					</tbody>
 		</table>
 		</div>
+
 	<div class="Athletics" id="section3">
 	<h3>ATHLETICS AND LEADERSHIP</h3><br>
 	</div>

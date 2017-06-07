@@ -52,9 +52,50 @@ border-radius: 50%;
 	background-color: #222222;
 	font-family: '21st Regular', sans-serif;
 }
+
 .Center {
   text-align: center;
  }
+ .button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #B40431;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 .Athletics{
 	color: #FFFFFF;
 	background-color: #222222;
@@ -71,6 +112,8 @@ border-radius: 50%;
 	background-color: #222222;
 	font-family: '21st Regular', sans-serif;
 }
+
+/*ComputerSkils Table Animation*/
 .container th h1 {
 	  font-weight: bold;
 	  font-size: 1em;
@@ -87,6 +130,7 @@ border-radius: 50%;
 }
 
 .container {
+	  color: #A7A1AE;
 	  text-align: left;
 	  width: 100%;
 	  margin: 0 auto;
@@ -107,7 +151,6 @@ border-radius: 50%;
 .container th {
 	  background-color: #1F2739;
 }
-.container td:first-child { color: #FB667A }
 
 .container tr:hover {
    background-color: #464A52;
@@ -160,7 +203,7 @@ h3{
   padding: 12 20 12 20;
 
 }
-
+/*Arrow Animation*/
 .arrow {
   position: absolute;
   bottom: 0;
@@ -212,3 +255,81 @@ h3{
 	40% {transform: translateY(-30px);}
 	60% {transform: translateY(-15px);}
 }
+
+/*Bar Graph animation*/
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+*{ box-sizing:border-box;}
+
+body {
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  font-family: '21st Regular', sans-serif;
+  padding: 2%;
+ 
+}
+.wrap {
+  width: 50%;
+  margin: 0 auto;
+}
+ul {
+ 	li {
+  		line-height: 2;
+   		font-weight: bold;
+  		font-family:'21st Regular', sans-serif;
+  		font-size: .85em;
+  		text-transform: uppercase;
+  		clear: both;
+		border-bottom: 1px solid $border;
+		&:before {
+			content: "\2023";
+			padding: 0 1em 0 0;
+		}
+ 	}
+ }
+ .bar {
+ 	background: #C93C4F; 
+ 	width: 0;
+ 	margin: .25em 0;
+ 	color: #fff;
+ 	position: relative;
+ 	 transition:width 2s, background .2s;
+    -webkit-transform: translate3d(0,0,0);
+ 	 clear: both;
+ 	 &:nth-of-type(2n) {
+ 	 	background:lighten(#e74c3c , 10% );
+ 	 }
+}
+.even{
+	background: #E13E54;
+}
+
+.label {
+	color: #FB667A;
+    font-size: 1em;
+    background: #323C50;
+    width: 8em;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+  }
+  
+ .light {
+    background: #2C3446;
+   }
+ .count {
+	position: absolute;
+	right: .25em;
+	top: .75em;
+ 	padding: .15em; 
+	font-size: .75em;
+	font-weight: bold;
+	font-family: '21st Regular', sans-serif;
+ }
