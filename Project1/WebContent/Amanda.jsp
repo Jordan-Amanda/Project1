@@ -87,8 +87,8 @@ setTimeout(function start (){
 			<br>I am currently a student studying Computer Science at University of Nebraska at Omaha. 
 				Outside work, I play Volleyball for UNO at the division 1 level. 
 				Please, feel free to check out my social media channels above to learn more about me.</p>
-<form action="Amanda Conlin Resume.pdf">
-		<button class="button" style="vertical-align:middle"><span>View My Resume </span></button>
+<form action="https://files.acrobat.com/a/preview/e6958eaa-a45c-4913-82ae-a185116f47de">
+		<button type="submit" class="button" style="vertical-align:middle"><span>View My Resume </span></button>
 </form>
 		<br>
 	</div>
