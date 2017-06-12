@@ -43,7 +43,7 @@ border-radius: 50%;
 
 .jumbotron {
   background: url("https://res.cloudinary.com/simpleview/image/upload/c_fill,f_auto,h_537,q_50,w_1084/v1/clients/omaha/OmahaSkyline_fountain_04fab722-1e4b-4daa-a2b0-ac604ee9d765.jpg") no-repeat center center fixed;
-  min-height: 925px;
+  height: 100%;
   width: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -338,3 +338,45 @@ ul {
 	font-weight: bold;
 	font-family: '21st Regular', sans-serif;
  }
+ 
+/*ContactME email area*/
+input[type=text], textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    cursor:pointer;
+	width:100%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+input[type=submit]:hover {
+    background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+.email {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    max-width:450px;
+    margin:0 auto;
+    position:relative;
+}
+.email label, span {
+	color: #000000;
+}

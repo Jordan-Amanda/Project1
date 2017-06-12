@@ -42,6 +42,11 @@ setTimeout(function start (){
 
 	}, 500)
 </script>
+<script type="text/javascript">
+    if (window.location.href == "https://www.enformed.io/success") {
+  		window.location.href = 'http://localhost:8080/Project1/Amanda.jsp'; 
+    }
+</script>
 		<title>Amanda's Page</title>
 	</head>
 	<body>
@@ -166,47 +171,21 @@ setTimeout(function start (){
 	</div>
 	<div class="ContactMe" id="section4">
 	<h3>CONTACT ME</h3>
-			<form action="SendEmail" method=POST>
-				<table align="center">
-					<thead>
-						<tr>
-							<td>Call or text me at 602-316-3760</td>
-							<td></td>
-							<td></td>
-						</tr>
-						<tr>
-							<td>Address is 908 S. 38th Ave Omaha, NE 68105</td>
-							<td></td>
-							<td></td>
-						</tr>
-						<tr>
-							<td>Email Amanda at aconlindvhs@gmail.com</td>
-							<td></td>
-							<td></td>
-						</tr>
-					</thead>
-					<tbody>
-					<tr>
-						<td><textarea name="Name" rows="1" cols="50"></textarea>
-						</tr>
-						<tr>
-							<td><textarea name="Subject" rows="1" cols="50"></textarea>
-						</tr>
-						<tr>
-							<td><textarea name="Email" maxlength="500" rows="10"
-									cols="50" style="color: black;"></textarea></td>
-							<td><table style="background-color: rgba(245, 245, 245, 0);">
-									<tbody>
-										<tr>
-											<td><input type="submit" name="NewEmail"
-												value="Send Email" class="btn menubtn" style="margin-bottom:12px;"></td>
-										</tr>
-									</tbody>
-								</table></td>
-						</tr>
-					</tbody>
-				</table>
-			</form>
-			</div>
+	<div class="email">
+	<div class="Center">
+	<span>Call or Text me at 602-316-3760</span><br>
+	<span>My Address is 908 S. 38th Ave Omaha, NE 68105</span><br><br>
+	<span>Email Me at aconlindvhs@gmail.com</span><br>
+	</div>
+	<form action="https://www.enformed.io/q19wp5ay" method="POST"><!-- enctype="multipart/form-data">-->
+    <label for="name">Name</label>
+    <input type="text" name="name" placeholder="Your name..">
+	<label for="subject">Subject</label>
+    <input type="text" name="subject" placeholder="Subject..">
+    <label for="message">Message</label>
+    <textarea name="message" placeholder="Write something.." style="height:200px"></textarea>
+    <input type="submit" value="Send Email">
+  	</form>
+	</div></div>
 	</body>
 </html>
