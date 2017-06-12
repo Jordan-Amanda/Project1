@@ -4,6 +4,11 @@ height: 180;
 border-radius: 50%;
 }
 
+.fa {
+	color:#4286f4;
+	text-decoration: none;
+}
+
 .navigation {
   height: auto;
   left: 0;
@@ -270,9 +275,9 @@ body {
   color: #333;
   -webkit-font-smoothing: antialiased;
   font-family: '21st Regular', sans-serif;
-  padding: 2%;
- 
+  margin: 0 0 0 0;
 }
+
 .wrap {
   width: 50%;
   margin: 0 auto;

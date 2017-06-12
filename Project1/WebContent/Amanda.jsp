@@ -1,6 +1,7 @@
 <html>
 	<head>
     <link href="AmandaStyle.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
@@ -69,24 +70,17 @@ setTimeout(function start (){
 		<img id="conlin3" src="https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/p960x960/1780948_659831967416252_6823679846900867884_o.jpg?oh=fb47e28136d5c77a93789b2e76054cac&oe=59AC859D">
 	<p> Amanda Conlin </p>
 	<p> Web Designer, Developer and Programmer </p>
-		<a href="http://www.omavs.com/ViewArticle.dbml?ATCLID=208819261&DB_OEM_ID=31400">
-			<img border="0" src="http://msep.mhec.org/sites/msep.mhec.org/files/UNO-icon-color.png" width="100" height="100">
-		</a>
-	<a href="https://www.facebook.com/amanda.conlin.14">
-			<img border="0" src="https://www.seeklogo.net/wp-content/uploads/2016/09/facebook-icon-preview-1-400x400.png" width="100" height="100">
-		</a>
-	<a href="https://www.instagram.com/conlin15/">
-			<img border="0" src="https://image.freepik.com/free-vector/instagram-icon_1057-2227.jpg" width="100" height="100">
-	</a>
-	<a href="https://twitter.com/aconlin15">
-			<img border="0" src="https://image.freepik.com/free-icon/twitter-logo_318-40209.jpg" width="70" height="70">
-	</a>
+		<a href="https://www.facebook.com/amanda.conlin.14" class="fa fa-facebook-square" style="font-size:48px;"></a>
+		<a href="https://www.instagram.com/conlin15/" class="fa fa-instagram" style="font-size:48px;"></a>
+		<a href="https://twitter.com/aconlin15" class="fa fa-twitter-square" style="font-size:48px;"></a>
+		<!-- TODO Add this to include vball profile<a href="http://www.omavs.com/ViewArticle.dbml?ATCLID=208819261&DB_OEM_ID=31400">
+			<img border="0" src="http://msep.mhec.org/sites/msep.mhec.org/files/UNO-icon-color.png" width="100" height="100"></a>-->
 			<p>Hi, my name is Amanda, a 21 year old web developer from Phoenix, Arizona. 
-				I've been working in the web design and development field for about 5 years now. 
-				My work is focused primarily on software development and front end web development. 
+			<br>I've been working in the web design and development field for about 5 years now. 
+			<br>My work is focused primarily on software development and front end web development. 
 			<br>I am currently a student studying Computer Science at University of Nebraska at Omaha. 
 				Outside work, I play Volleyball for UNO at the division 1 level. 
-				Please, feel free to check out my social media channels above to learn more about me.</p>
+			<br>Please, feel free to check out my social media channels above to learn more about me.</p>
 <form action="https://files.acrobat.com/a/preview/e6958eaa-a45c-4913-82ae-a185116f47de">
 		<button type="submit" class="button" style="vertical-align:middle"><span>View My Resume </span></button>
 </form>
@@ -106,51 +100,62 @@ setTimeout(function start (){
 						<tr>
 							<td><div class="bar cf" data-percent="85%">
 							<span class="label">Java</span> </div></td>
-							<td>Java 1</td>
+							<td>Java 1 & Java 2</td>
 						</tr>
 						<tr>
 							<td><div class="bar cf even" data-percent="75%">
 							<span class="label light">JavaScript</span></div></td>
+							<td>Advanced Java Programming</td>
 						</tr>
 						<tr>
 							<td><div class="bar cf" data-percent="65%">
 							<span class="label">C</span></div></td>
+							<td>Introduction to C Programming</td>
 						</tr>
 						<tr>
 							<td><div class="bar cf even" data-percent="90%">
 							<span class="label light">HTML</span></div></td>
+							<td>Theory of Computation</td>
 						</tr>
 						<tr>
 							<td><div class="bar cf" data-percent="90%">
 							<span class="label">CSS</span></div></td>
+							<td>Multimedia Systems</td>
 						</tr>
 						<tr>
 							<td><div class="bar cf even" data-percent="90%">
 							<span class="label light">PHP</span></div></td>
+							<td>Software Engineering</td>
 						</tr>
 						<tr>
 							<td><div class="bar cf" data-percent="80%">
 							<span class="label">AngularJS</span></div></td>
+							<td>Principles of Programming Languages</td>
 						</tr>
 						<tr>
 							<td><div class="bar cf even" data-percent="85%">
 								<span class="label light">Linux</span></div></td>
+								<td>Linux Administration</td>
 						</tr>
 						<tr>
 							<td><div class="bar cf" data-percent="75%">
 							<span class="label">Perl</span></div></td>
+							<td>Programming on the Internet</td>
 						</tr>
 						<tr>
 							<td><div class="bar cf even" data-percent="80%">
 							<span class="label light">Microsoft Tools</span></div></td>
+							<td>Database Management</td>
 						</tr>
 						<tr>
 							<td><div class="bar cf" data-percent="70%">
 								<span class="label">Tomcat & UNIX</span></div></td>
+								<td>Operating Systems</td>
 						</tr>
 						<tr>
 							<td><div class="bar cf even" data-percent="70%">
 								<span class="label light">Ricola3 </span></div></td>
+								<td>Introduction to Functional Programming</td>
 						</tr>
 					</tbody>
 		</table>
