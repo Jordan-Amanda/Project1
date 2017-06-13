@@ -1,8 +1,15 @@
 <html>
 	<head>
+	<!-- My stylesheet -->
     <link href="AmandaStyle.css" type="text/css" rel="stylesheet" />
+    <!-- arrow animation -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- ajax use -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- alert user -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.2.0/jquery-confirm.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.2.0/jquery-confirm.min.js"></script>
+<!-- Handles the arrow animation -->
 <script>
 $(document).ready(function(){
   $("a").on('click', function(event) {
@@ -17,7 +24,34 @@ $(document).ready(function(){
     } 
   });
 });
+//Handles Email Form
+$(document).ready( function() {
+	  var form = $('#my_awesome_form');
+	  $("form").submit(function(event) {
+		  event.preventDefault();
+		  $.ajax( {
+	      type: "POST",
+	      url: form.attr( 'action' ),
+	      data: form.serialize(),
+	      success: function() {
+	    	  $.confirm({
+	    		    title: 'Email Sent!',
+	    		    content: 'Email has been Sent to Amanda!',
+	    		    type: 'blue',
+	    		    typeAnimated: true,
+	    		    boxWidth: '500px',
+	    		    useBootstrap: false,
+	    		    buttons: {
+	    		        OK: function () {
+	    		        }
+	    		    }
+	    		});
+	      }
+	    } );
+	  } );
+	} );
 </script>
+<!-- Handles the bar graph -->
 <script type="text/javascript">
 setTimeout(function start (){
 	  $('.bar').each(function(i){  
@@ -41,11 +75,6 @@ setTimeout(function start (){
 	});
 
 	}, 500)
-</script>
-<script type="text/javascript">
-    if (window.location.href == "https://www.enformed.io/success") {
-  		window.location.href = 'http://localhost:8080/Project1/Amanda.jsp'; 
-    }
 </script>
 		<title>Amanda's Page</title>
 	</head>
@@ -173,19 +202,20 @@ setTimeout(function start (){
 	<h3>CONTACT ME</h3>
 	<div class="email">
 	<div class="Center">
-	<span>Call or Text me at 602-316-3760</span><br>
-	<span>My Address is 908 S. 38th Ave Omaha, NE 68105</span><br><br>
-	<span>Email Me at aconlindvhs@gmail.com</span><br>
+		<span>Call or Text me at 602-316-3760</span><br>
+		<span>My Address is 908 S. 38th Ave Omaha, NE 68105</span><br><br>
+		<span>Email Me at aconlindvhs@gmail.com</span><br>
 	</div>
-	<form action="https://www.enformed.io/q19wp5ay" method="POST"><!-- enctype="multipart/form-data">-->
-    <label for="name">Name</label>
-    <input type="text" name="name" placeholder="Your name..">
-	<label for="subject">Subject</label>
-    <input type="text" name="subject" placeholder="Subject..">
-    <label for="message">Message</label>
-    <textarea name="message" placeholder="Write something.." style="height:200px"></textarea>
-    <input type="submit" value="Send Email">
-  	</form>
-	</div></div>
+	<form id="my_awesome_form" action="https://www.enformed.io/q19wp5ay" method="POST">
+    		<label for="name">Name</label>
+    			<input type="text" name="name" placeholder="Your name..">
+			<label for="subject">Subject</label>
+  	  			<input type="text" name="subject" placeholder="Subject..">
+    		<label for="message">Message</label>
+    			<textarea name="message" placeholder="Write something.." style="height:200px"></textarea>
+    		<input type="submit" value="Send Email">
+  		</form>
+	  </div>
+	 </div>
 	</body>
 </html>
