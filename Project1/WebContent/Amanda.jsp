@@ -131,32 +131,32 @@ setTimeout(function start (){
 					</thead>
 					<tbody>
 						<tr>
-							<td><div class="bar cf" data-percent="85%">
-							<span class="label">Java</span> </div></td>
+							<td><div class="bar cf" data-percent="70%">
+							<span class="label">Java</span></div></td>
 							<td>Java 1 & Java 2</td>
 						</tr>
 						<tr>
-							<td><div class="bar cf even" data-percent="75%">
+							<td><div class="bar cf even" data-percent="90%">
 							<span class="label light">JavaScript</span></div></td>
 							<td>Advanced Java Programming</td>
 						</tr>
 						<tr>
-							<td><div class="bar cf" data-percent="65%">
+							<td><div class="bar cf" data-percent="55%">
 							<span class="label">C</span></div></td>
 							<td>Introduction to C Programming</td>
 						</tr>
 						<tr>
-							<td><div class="bar cf even" data-percent="90%">
+							<td><div class="bar cf even" data-percent="100%">
 							<span class="label light">HTML</span></div></td>
 							<td>Theory of Computation</td>
 						</tr>
 						<tr>
-							<td><div class="bar cf" data-percent="90%">
+							<td><div class="bar cf" data-percent="100%">
 							<span class="label">CSS</span></div></td>
 							<td>Multimedia Systems</td>
 						</tr>
 						<tr>
-							<td><div class="bar cf even" data-percent="90%">
+							<td><div class="bar cf even" data-percent="40%">
 							<span class="label light">PHP</span></div></td>
 							<td>Software Engineering</td>
 						</tr>
@@ -171,7 +171,7 @@ setTimeout(function start (){
 								<td>Linux Administration</td>
 						</tr>
 						<tr>
-							<td><div class="bar cf" data-percent="75%">
+							<td><div class="bar cf" data-percent="45%">
 							<span class="label">Perl</span></div></td>
 							<td>Programming on the Internet</td>
 						</tr>
@@ -181,7 +181,7 @@ setTimeout(function start (){
 							<td>Database Management</td>
 						</tr>
 						<tr>
-							<td><div class="bar cf" data-percent="70%">
+							<td><div class="bar cf" data-percent="30%">
 								<span class="label">Tomcat & UNIX</span></div></td>
 								<td>Operating Systems</td>
 						</tr>
@@ -195,7 +195,50 @@ setTimeout(function start (){
 		</div>
 
 	<div class="Athletics" id="section3">
-	<h3>ATHLETICS AND LEADERSHIP</h3><br>
+	<h3>ATHLETICS AND EXPERIANCE</h3><br>
+	<!--<a href="http://www.omavs.com/ViewArticle.dbml?ATCLID=208819261&DB_OEM_ID=31400">
+	<img id="conlin4" src="http://msep.mhec.org/sites/msep.mhec.org/files/UNO-icon-color.png" ></a>-->
+		<div class="AthleticBody">
+					 <div class="AthleticWrap">		
+						<div class="pricing-grid1">
+							<div class="price-value">
+									<h2>INTERNSHIP</h2>
+							</div>
+							<div class="writing">
+          					*Internship info goes here*
+          					</div>
+							<div class="cart1">
+							&nbsp;
+							</div>
+						</div>
+						<div class="pricing-grid2">
+							<div class="price-value two">
+								<h2>COLLEGE</h2>
+								<div class="sale-box two">
+							</div>
+							</div>				
+             					<div class="writing">
+          					*college info goes here*
+          					</div>
+							<div class="cart2">
+								<a class="popup-with-zoom-anim" href="http://www.omavs.com/ViewArticle.dbml?ATCLID=208819261&DB_OEM_ID=31400">My BIO</a>
+							</div>		
+						</div>
+						<div class="pricing-grid3">
+							<div class="price-value three">
+								<h2>UPTIES</h2>
+								<div class="sale-box three">
+               				 </div>
+							</div>
+								<div class="writing">
+          					*upties info goes here*
+          					</div>
+							<div class="cart3">
+							&nbsp;
+							</div>
+							</div>	
+						</div>
+		</div>
 	</div>
 	<div class="ContactMe" id="section4">
 	<h3>CONTACT ME</h3>
