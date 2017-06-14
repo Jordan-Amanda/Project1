@@ -195,7 +195,7 @@ setTimeout(function start (){
 		</div>
 
 	<div class="Athletics" id="section3">
-	<h3>ATHLETICS AND EXPERIANCE</h3><br>
+	<h3>ATHLETICS AND EXPERIENCE</h3><br>
 	<!--<a href="http://www.omavs.com/ViewArticle.dbml?ATCLID=208819261&DB_OEM_ID=31400">
 	<img id="conlin4" src="http://msep.mhec.org/sites/msep.mhec.org/files/UNO-icon-color.png" ></a>-->
 		<div class="AthleticBody">
@@ -205,7 +205,14 @@ setTimeout(function start (){
 									<h2>INTERNSHIP</h2>
 							</div>
 							<div class="writing">
-          					*Internship info goes here*
+          					I started my internship with Union Pacific May 2015 and I currently 
+          					am still a year-round intern there. I started in the Online System Support(OSS)
+          					department, under Brandon Taylor, and worked as an agent to provide IT support to all of Union Pacific employees.
+          					I worked in OSS for almost two years before I was transferred into the department I am in right
+          					now which is NetControl Front End(NFE), under Maria Cabo. In my current position I am a 
+          					front-end developer using Angular JS on the Random Drug Testing(RDT) Project. 
+          					I really enjoy this internship and I am currently looking to get hired full time into 
+          					an IT position.
           					</div>
 							<div class="cart1">
 							&nbsp;
@@ -218,7 +225,15 @@ setTimeout(function start (){
 							</div>
 							</div>				
              					<div class="writing">
-          					*college info goes here*
+          					I am a senior student-athlete at University of Nebraska at Omaha 
+          					My GPA right now is a 3.16 with my graduation being in December 15th 2017.
+          					I went into UNO as a dual sport athlete, also being on the 
+          					Track team as a thrower. I quit sophomore year because I had picked up 
+          					my internship and had suffered a back injury. 
+          					This year I am a Captain of UNO's volleyball team.
+          					We are a division 1 level and compete in the Summit League
+          					My team was runner up of the conference tournament in the year of 2014. 
+          					On a daily basis I go to practice and spend time with my team as a leader and team mate. 
           					</div>
 							<div class="cart2">
 								<a class="popup-with-zoom-anim" href="http://www.omavs.com/ViewArticle.dbml?ATCLID=208819261&DB_OEM_ID=31400">My BIO</a>
@@ -226,12 +241,19 @@ setTimeout(function start (){
 						</div>
 						<div class="pricing-grid3">
 							<div class="price-value three">
-								<h2>UPTIES</h2>
+								<h2>COMMUNITY</h2>
 								<div class="sale-box three">
                				 </div>
 							</div>
 								<div class="writing">
-          					*upties info goes here*
+          					Through Union Pacific I am on the leadership team for the ERG group
+          					UPTIES as the intern representative. I organize and plan events for all
+          					UPTIES members all throughout the year. I also often volunteer for various 
+          					organizations to stay involved in the community. Some of those organizations are;
+          					Operation Super Jack, Athletes and Elders, KaBOOM, and several community run/walks. 
+          					In the summer on a yearly basis I run volleyball camps with UNO and these last for
+          					about 2-3 weeks with all ages from 3rd graders all the way up to high schoolers.
+          					I really enjoy being involved with the community and helping Omaha be a better place. 
           					</div>
 							<div class="cart3">
 							&nbsp;
