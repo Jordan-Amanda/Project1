@@ -1,5 +1,5 @@
-.jumbotron{
-background-image: url("https://www.empathic.com/empathic/images/public/bg.jpg");
+.heading{
+background-image: url("https://ak5.picdn.net/shutterstock/videos/23036440/thumb/1.jpg");
 background-repeat: no-repeat; 
 background-position: center;
 background-size: 100%;
@@ -15,7 +15,7 @@ height: 100%;
 border-style: solid;
 border-color: black;
 background-color: black;
-position: absolute;
+position: fixed;
 
 }
 
@@ -52,6 +52,7 @@ margin-left: 850px;
 
 	
 #Intro1{
+color: white;
 margin:0px;
 font-family: san-serif;
 font-size: 100px;
