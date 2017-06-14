@@ -6,10 +6,10 @@
 	<h1>Welcome to Jordan's and Amanda's Website  </h1>
 			<img id="fay1" src="https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/17265158_703776729783777_216559340396432467_n.jpg?oh=b90f8bbff79f142a6c0a3e3d243f0451&oe=59E68C84">
 			<img id="conlin1" src="https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/11694863_895968983802548_3882590995493802209_n.jpg?oh=4793eee8c7cfaeb6dcf00952c99e4bd8&oe=59BE3586">
-	<form action="Jordan.jsp">
+	<form action="Jordan.html">
 		<input id="fay2" type="submit" value="About Jordan Fay" />
 	</form>
-	<form action="Amanda.jsp">
+	<form action="Amanda.html">
 		<input id="conlin2" type="submit" value="About Amanda Conlin" />
 	</form>
 	</body>
