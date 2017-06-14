@@ -16,7 +16,7 @@
 	 				<li><a href="#part4">Contact Me</a></li>
 	 			</ul>	
 			</div>
-		<div class="jumbotron">
+		<div class="heading">
 			<h1 id="Intro1">My name is Jordan Fay </h1>
 			<h2 id="Intro2">I am a Web and Graphic Designer</h2>
 		</div>
