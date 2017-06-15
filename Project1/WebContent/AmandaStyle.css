@@ -1,13 +1,20 @@
 /*Pictures of Me*/
-#conlin1, #conlin2, #conlin3, #conlin4 {
-width: 180;
-height: 180;
+#conlin1 {
+width: 470;
+height: 470;
 border-radius: 50%;
 }
-
+.pics{
+	float: left;
+	width: 35%;
+}
+.right{
+	float: left;
+	width: 65%;
+}
 /*Social Media Icons*/
 .fa {
-	color:#B40431;
+	color:#F25050;
 	text-decoration: none;
 }
 
@@ -23,11 +30,11 @@ border-radius: 50%;
   padding: 0;
 }
 .navigation a {
-  color: #CEF6F5;
+  color: #000000;
   display: inline-block;
-  font-family: 'Roboto', sans-serif;
+  font-family: Quicksand;
+  font-weight: 1000;
   font-size: 16px;
-  font-weight: 100;
   letter-spacing: 2px;
   margin: 20px;
   text-transform: uppercase;
@@ -41,7 +48,7 @@ border-radius: 50%;
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #FFFFFF;
+  background-color: #F25050;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -66,7 +73,7 @@ border-radius: 50%;
 
 /*Top Photo*/
 .jumbotron {
-  background: url("https://res.cloudinary.com/simpleview/image/upload/c_fill,f_auto,h_537,q_50,w_1084/v1/clients/omaha/OmahaSkyline_fountain_04fab722-1e4b-4daa-a2b0-ac604ee9d765.jpg") no-repeat center center fixed;
+  background: url("https://unsplash.it/1925/1280?image=360") no-repeat center center fixed;
   height: 100%;
   width: 100%;
   -webkit-background-size: cover;
@@ -79,6 +86,8 @@ border-radius: 50%;
 /*AboutMe Section*/
 .AboutMe{
 	color: #FFFFFF;
+	font-family: Quicksand;
+	font-size: 24px;
 	background-color: #222222;
 }
 /*ComputerSkills Section*/
@@ -95,7 +104,7 @@ border-radius: 50%;
 .button {
   display: inline-block;
   border-radius: 4px;
-  background-color: #B40431;
+  background-color: #F25050;
   border: none;
   text-align: center;
   font-size: 20px;
@@ -104,12 +113,14 @@ border-radius: 50%;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
+  color: #FFFFFF;
 }
 .button span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
+  color: #FFFFFF;
 }
 .button span:after {
   content: '\00bb';
@@ -118,13 +129,16 @@ border-radius: 50%;
   top: 0;
   right: -20px;
   transition: 0.5s;
+  color: #FFFFFF;
 }
 .button:hover span {
   padding-right: 25px;
+  color: #FFFFFF;
 }
 .button:hover span:after {
   opacity: 1;
   right: 0;
+  color: #FFFFFF;
 }
 
 /*Athletics Section*/
@@ -139,17 +153,15 @@ border-radius: 50%;
 
 /*ComputerSkils Table Animation*/
 .container th h1 {
+	  font-family: Quicksand;
 	  font-weight: bold;
-	  font-size: 1em;
+	  font-size: 2em;
   	  text-align: left;
-      color: #2177CE;
+      color: #F25050;
 }
 .container td {
 	  font-weight: normal;
 	  font-size: 1em;
-      -webkit-box-shadow: 0 2px 2px -2px #0E1119;
-	  -moz-box-shadow: 0 2px 2px -2px #0E1119;
-	  box-shadow: 0 2px 2px -2px #0E1119;
 }
 .container {
 	  color: #A7A1AE;
@@ -157,12 +169,22 @@ border-radius: 50%;
 	  width: 100%;
 	  margin: 0 auto;
   	  display: table;
-  	  padding: 0 0 1em 0;
+  	  padding: 0 0 0 0;
 }
-.container td, .container th {
+.container td {
 	  padding-bottom: .7%;
 	  padding-top: .7%;
-      padding-left: 2%;
+      padding-left: 1%;
+      font-family: Quicksand;
+      font-size: 15px;
+    
+}
+.space{
+	letter-spacing: 2px;
+}
+.container th{
+	 padding-top: 1%;
+     padding-left: 2%;
 }
 .container tr:nth-child(odd) {
 	  background-color: #323C50;
@@ -173,39 +195,27 @@ border-radius: 50%;
 .container th {
 	  background-color: #1F2739;
 }
-.container tr:hover {
-   background-color: #464A52;
-  -webkit-box-shadow: 0 6px 6px -6px #0E1119;
-  -moz-box-shadow: 0 6px 6px -6px #0E1119;
-  box-shadow: 0 6px 6px -6px #0E1119;
-}
+
 .container td:hover {
-  background-color: #3979B9;
-  color: #403E10;
+  background-color: #F25050;
+  color: #FFFFFF;
   font-weight: bold;
-  box-shadow: #190707 -1px 1px, #190707 -2px 2px,#190707 -3px 3px,
-  #190707 -4px 4px,#190707 -5px 5px, #190707 -6px 6px;
-  transform: translate3d(6px, -6px, 0);
-  transition-delay: 0s;
-	  transition-duration: 0.4s;
-	  transition-property: all;
-  transition-timing-function: line;
+
 }
 
 /*Title Words*/
 #title1 {
   color: #FFF;
-  font-family: 'Ruda', sans-serif;
+  font-family: "Open Sans";
   font-size: 70px;
   font-weight: 900;
   margin: 0;
   padding-top: 120px;
   text-align: center;
-  text-transform: uppercase;
 }
 #title2 {
   color: #FFF;
-  font-family: 'Catamaran', sans-serif;
+  font-family: Open Sans;
   margin: 0;
   text-align: center;
 }
@@ -214,7 +224,7 @@ border-radius: 50%;
 h3{
   color: #FFF;
   background-color:#FF0040;
-  font-family: 'Lato', sans-serif;
+  font-family: Open Sans;
   font-size: 18px;
   font-weight: 100;
   letter-spacing: 2px;
@@ -284,7 +294,7 @@ h3{
 body {
   color: #333;
   -webkit-font-smoothing: antialiased;
-  font-family: '21st Regular', sans-serif;
+  font-family: Quicksand;
   margin: 0 0 0 0;
 }
 .wrap {
@@ -295,7 +305,7 @@ ul {
  	li {
   		line-height: 2;
    		font-weight: bold;
-  		font-family:'21st Regular', sans-serif;
+  		font-family: Quicksand;
   		font-size: .85em;
   		text-transform: uppercase;
   		clear: both;
@@ -331,7 +341,7 @@ ul {
     position: relative;
     z-index: 2;
     font-weight: bold;
-    font-family: 'Lato', sans-serif;
+    font-family: Quicksand;
   }
 .light {
     background: #2C3446;
@@ -355,7 +365,8 @@ input[type=text], textarea {
     box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 16px; 
-    resize: vertical 
+    resize: vertical;
+    font-family: Quicksand;
 }
 input[type=submit] {
     cursor:pointer;
@@ -366,6 +377,8 @@ input[type=submit] {
 	margin:0 0 5px;
 	padding:10px;
 	font-size:15px;
+	font-family: Quicksand;
+	letter-spacing: 2px;
 }
 input[type=submit]:hover {
     background:#FA3337;
@@ -387,7 +400,7 @@ input[type=submit]:hover {
 /*Athletic Pricing Tables*/
 .AthleticBody{
 	background:url(https://preview.w3layouts.com/demos/flat_pricing_tables_design/web/images/bg.jpg)no-repeat 0px 0px;
-	    font-family: 'Lato', sans-serif;
+	   font-family: Quicksand;
 	    background-size: cover;
 	    -o-background-size: cover;
 	    -webkit-background-size: cover;
@@ -424,6 +437,9 @@ border-radius: 0.7em;
 .pricing-grid3{
  	margin: 0;
  }
+.pricing-grid1{
+	margin-left: 15;
+}
 .pricing-grid1:hover,.pricing-grid2:hover,.pricing-grid3:hover {
 	transform: scale(1.05);
 -webkit-transform: scale(1.05);
@@ -480,7 +496,7 @@ border-bottom: 2px solid#FA3337;
 }
 .cart2 a{
 	color: #FFF;
-	font-size: 0.9em;
+	font-size: 1em;
 	font-weight: 500;
 	padding: 0.8em 2em;
 	text-decoration: none;
@@ -492,13 +508,17 @@ border-bottom: 2px solid#FA3337;
 	-o-border-radius:1em;
 	-moz-border-radius:1em;
 	outline: none;
+	font-family: Quicksand;
 }
 
-.cart2 a:hover,{
+.cart2 a:hover{
 	color: #2b2b33;
 }
 
 .writing{
 	color:#FFFFFF;
 	padding-top: 10;
+	transform: translateZ(0);
+	backface-visibility: hidden;
+	-webkit-font-smoothing: subpixel-antialiased;
 }
