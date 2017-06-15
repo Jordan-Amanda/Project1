@@ -1,13 +1,19 @@
 .heading{
-background-image: url("https://ak5.picdn.net/shutterstock/videos/23036440/thumb/1.jpg");
+background-image: url("https://www.fhi.ox.ac.uk/wp-content/uploads/Star-field-hubble-deep-3.jpg");
 background-repeat: no-repeat; 
 background-position: center;
 background-size: 100%;
 padding: 80px;
+margin 0;
 }
 
 body{
 background-color: DimGray;
+}
+
+a{
+text-decoration: none;
+color: white;	
 }
 .nav{
 width: 250px; 
@@ -34,22 +40,22 @@ padding: 0px;
   padding: 20px;
 }
 
-.aboutMe{
+.aboutMe, .mySkills{
 text-align:center;
-font-size: 32px;
+font-size: 36px;
 background-color: SeaGreen;
 margin-right: 850px;
 margin-left: 850px;
+margin: 0;
 }
 
-.mySkills{
+.myInterests{
 text-align:center;
-font-size: 32px;
+font-size: 36px;
 background-color: SeaGreen;
-margin-right: 850px;
-margin-left: 850px;
+margin-right: 820px;
+margin-left: 820px;
 }
-
 	
 #Intro1{
 color: white;
@@ -76,18 +82,31 @@ border-radius: 50%;
 padding: 15px 20px;
 }
 
-.aboutMeContent{
+.aboutMeContent, .mySkillsContent, .myInterestsContent{
 margin-left: 300px;
 font-style: sans-serif;
 font-size: 25px;
 line-height: 35px;
 }
 
-.mySkillsContent{
-margin-left: 300px;
-font-style: sans-serif;
-font-size: 25px;
-line-height: 35px;
+.televisionSeries, .movies, .anime{
+	font-size: 32px;
+	margin-left: 300px;
+	color: white;
+	background-color: #0039e6;
 }
-	
+.televisionSeriesContent{
+text-align: justify;
+width: 350;	
+}
+.televisionSeriesContent img{
+display: block;	
+margin-left: 300px;
+}
+
+.tableContents, .movieContents, .animeContents{
+margin-left: 230px;
+font-size: 20;
+}	
+
 </style>
