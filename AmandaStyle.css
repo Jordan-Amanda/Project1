@@ -1,7 +1,7 @@
 /*Pictures of Me*/
 #conlin1 {
-width: 450;
-height: 450;
+width: 470;
+height: 470;
 border-radius: 50%;
 }
 .pics{
@@ -353,7 +353,8 @@ ul {
  	padding: .15em; 
 	font-size: .75em;
 	font-weight: bold;
-	font-family: '21st Regular', sans-serif;
+	font-family: Quicksand;
+	color: #FFFFFF;
 }
  
 /*ContactMe email area*/
