@@ -353,7 +353,8 @@ ul {
  	padding: .15em; 
 	font-size: .75em;
 	font-weight: bold;
-	font-family: '21st Regular', sans-serif;
+	font-family: Quicksand;
+	color: #FFFFFF;
 }
  
 /*ContactMe email area*/
