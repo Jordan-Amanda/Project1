@@ -1,7 +1,7 @@
 /*Pictures of Me*/
 #conlin1 {
 width: 470;
-height: 450;
+height: 430;
 border-radius: 50%;
 }
 .pics{
@@ -412,7 +412,7 @@ color: #fff;
 }
 
 .pricing-grid1,.pricing-grid3 {
-float: left;
+float: center;
 width: 100%;
 padding: 25px;
 text-align: center;
