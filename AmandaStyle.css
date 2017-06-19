@@ -1,7 +1,7 @@
 /*Pictures of Me*/
 #conlin1 {
 width: 470;
-height: 470;
+height: 450;
 border-radius: 50%;
 }
 .pics{
@@ -194,13 +194,6 @@ border-radius: 50%;
 }
 .container th {
 	  background-color: #1F2739;
-}
-
-.container td:hover {
-  background-color: #F25050;
-  color: #FFFFFF;
-  font-weight: bold;
-
 }
 
 /*Title Words*/
@@ -418,9 +411,25 @@ font-size: 3em;
 color: #fff;
 }
 
-.pricing-grid1,.pricing-grid2,.pricing-grid3 {
+.pricing-grid1,.pricing-grid3 {
 float: left;
-width: 33.3%;
+width: 100%;
+padding: 25px;
+text-align: center;
+transition: 0.5s all;
+-webkit-transition: 0.5s all;
+-moz-transition: 0.5s all;
+-o-transition: 0.5s all;
+border: none;
+border-radius: 0.5em;
+-webkit-border-radius: 0.5em;
+-o-border-radius: 0.5em;
+-moz-border-radius: 0.5em;
+}
+
+.pricing-grid2,.pricing-grid3 {
+float: left;
+width: 50%;
 padding: 14px;
 text-align: center;
 transition: 0.5s all;
@@ -515,4 +524,8 @@ border-bottom: 2px solid#FA3337;
 	transform: translateZ(0);
 	backface-visibility: hidden;
 	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+.writing a{
+	color: #FA3337;
 }
