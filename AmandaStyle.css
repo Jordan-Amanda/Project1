@@ -443,16 +443,6 @@ border-radius: 0.7em;
 -moz-border-radius: 0.7em;
 }
 
-.pricing-grid1:hover,.pricing-grid2:hover,.pricing-grid3:hover {
-	transform: scale(1.05);
--webkit-transform: scale(1.05);
--moz-transform: scale(1.05);
--o-transform: scale(1.05);
--ms-transform: scale(1.05);
-	z-index: 1;
-	border: none;
-}
-
 .price-value h2,.price-value.two h2,.price-value.three h2{
 	font-size: 1.8em;
 	color:#fff;
