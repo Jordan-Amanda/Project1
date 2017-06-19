@@ -1,13 +1,23 @@
 *{
 	font-family: san-serif, Helvetica, arial;
 }
+
 .heading{
 background-image: url("https://www.fhi.ox.ac.uk/wp-content/uploads/Star-field-hubble-deep-3.jpg");
 background-repeat: no-repeat; 
 background-position: center;
 background-size: 100%;
-padding: 80px;
+padding: 40px;
 margin 0;
+}
+
+ul {
+	list-style: none;
+}
+
+.open{
+left: 0px;
+top: 0px;	
 }
 
 body{
@@ -19,14 +29,16 @@ a{
 text-decoration: none;
 color: white;	
 }
-.nav{
+<!--------------------------------------------------------------------------------------->
+<!---------------Side Bar Navigation Styling--------------------------------------------->
+<!--------------------------------------------------------------------------------------->
+.sideNav{
 width: 250px; 
 height: 100%;
 border-style: solid;
 border-color: black;
 background-color: black;
 position: fixed;
-
 }
 
 .nav ul{
@@ -44,15 +56,161 @@ padding: 0px;
   padding: 20px;
 }
 
+.sideNav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 35px 0px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sideNav .closebtn {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-size: 36px;
+    margin-right: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sideNav {padding-top: 15px;}
+  .sideNav a {font-size: 18px;}
+}
+.subMenu{
+display: none;
+}
+
+.dropDown{
+position: relative;
+}
+
+.subMenu{
+postion: absolute;
+display:none;
+}
+
+.dropDown:hover > .subMenu{
+display: block;
+}
+<!--------------------------------------------------------------------------------------->
+<!---------------Bar Graph Styling------------------------------------------------------->
+<!--------------------------------------------------------------------------------------->
+.bargraph {
+    width:560px;
+}
+
+.bargraphStyling{
+background-color: black;
+margin-left: 320px;
+margin-right: 500px;
+margin-bottom: 100px;
+}
+
+ul.bargraph li {
+    height: 35px;
+    color: white;
+    text-align: left;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 35px;
+    padding: 0px 20px;
+    margin-bottom: 5px;
+    margin-left:-35px;
+}
+
+ul.bargraph li.reddeep {
+background: #ED1C24;
+width:30%;
+}
+ 
+ul.bargraph li.redpink {
+background: #EF465B;
+width:30%;
+}
+ 
+ul.bargraph li.pink {
+background: #E55A6B;
+width:30%;
+}
+ 
+ul.bargraph li.orangered {
+background: #E28159;
+width:30%;
+}
+ 
+ul.bargraph li.orange {
+background: #F99C1C;
+width:30%;
+}
+ 
+ul.bargraph li.yellow {
+background: #F4D41E;
+width:30%;
+}
+ 
+ul.bargraph li.green {
+background: #97B546;
+width:30%;
+}
+ 
+ul.bargraph li.greenbright {
+background: #36B669;
+width:30%;
+}
+ 
+ul.bargraph li.greenblue {
+background: #42BDA5;
+width:30%;
+}
+ 
+ul.bargraph li.blue {
+background: #00AEEF;
+width:30%;
+}
+ 
+ul.bargraph li.xaxis {
+background: url(../images/x-axis.jpg);
+height: 49px;
+}
+
+
+<!--------------------------------------------------------------------------------------->
+
 .aboutMe, .mySkills, .myInterests{
 text-align: left;
 font-size: 36px;
 color: white;
 background-color: #101010;
-margin-left: 256px;
 min-width: 2%;
 max-width: 12%;
 vertical-align: center;
+margin-left: 250px;
+}
+
+h4 {
+text-align: left;
+font-size: 36px;
+color: white;
+background-color: #101010;
+min-width: 2%;
+max-width: 12%;
+vertical-align: center;
+margin-left: 250px;
 }
 	
 #Intro1{
@@ -121,8 +279,16 @@ font-size: 20;
 }
 .imageZoom:hover{
 -webkit-transform: scale(1.1,1.1);
--webkit-transition: 0.5s;
-
+-webkit-transition: 0.5s all;
+-moz-transition: 0.5s all;
+-o-transition: 0.5s all;
+transition: 0.5s all;
+transform: scale(1.05);
+-moz-transform: scale(1.05);
+-o-transform: scale(1.05);
+-ms-transform: scale(1.05);
+	z-index: 1;
+	border: none;
 }
 
 </style>

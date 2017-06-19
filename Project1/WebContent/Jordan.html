@@ -2,21 +2,40 @@
 	<head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="JordanJS.js"> </script>
+	<script>
+		function openNav() {
+    		document.getElementById("nav").style.width = "250px";
+		}
+
+		function closeNav() {
+    		document.getElementById("nav").style.width = "0";
+		}
+</script>
+
 	<link href="JordanStyle.css" type="text/css" rel="stylesheet"/>
 		<title>Jordan Fay's Online Profile</title>
 	</head>
 	
 	<body>
-		<div class="nav">
+		<div id="nav" class="sideNav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			<img id="profilePic" src="https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/18951273_742776442550472_18476395673588954_n.jpg?oh=ecf3304f730ee02e3b43e26b504586c8&oe=59D7D1D9">
 				<ul>
 	 				<li><a href="#part1">About Me</a></li>
 	 				<li><a href="#part2">My Skills</a></li>
-	 				<li><a href="#part3">My Interests</a></li>
+	 				<li class="dropDown">
+	 				<a href="#part3">My Interests</a>
+	 				<ul class="subMenu">
+	 						<li><a href="#part3">Top Favorite Television Series</a></li>
+	 						<li><a href="#part3">Top Favorite Movies</a></li>
+	 						<li><a href="#part3">Top Favorite Anime</a></li>
+	 					</ul>	
 	 				<li><a href="#part4">Contact Me</a></li>
 	 			</ul>	
 			</div>
+
 		<div class="heading">
+			<span style="font-size:30px; color:white; cursor:pointer" onclick="openNav()">&#9776; Open</span>
 			<h1 id="Intro1">My name is Jordan Fay </h1>
 			<h2 id="Intro2">I am a Web and Graphic Designer</h2>
 		</div>
@@ -33,8 +52,22 @@
 		</div>
 		<div class="mySkillsContent">
 			<p>I have learned a few programming languages through programming courses I have taken at UNO, as well as through <a href="https://www.codecademy.com/" target="_blank">Codecademy</a>, 
-			and personal projects. Listed below are some languages I have experience in. Please feel free to take a look!</p>
+			and personal projects. Listed below are some languages and other software products that I have experience in. Please feel free to take a look!</p>
 		</div>
+			<div class="bargraphStyling">
+				<ul class="bargraph">
+					<li class="barTitle">Programming Languages and Software Experience</li>
+		    		<li class="reddeep">HTML5</li>
+    				<li class="redpink">CSS</li>
+    				<li class="pink">Adobe Photoshop</li>
+   		    		<li class="orangered">Adobe Illustrator</li>
+    				<li class="orange">C Programming</li>
+    				<li class="yellow">Java</li>
+    				<li class="green">JavaScript</li>
+   					<li class="greenbright">HitFilm Express Film Editor</li>
+    				<li class="greenblue">Microsoft Products</li>
+				</ul>
+			</div>
 		<div class="myInterests">
 			<h4>My Interests</h4>
 		</div>
