@@ -75,7 +75,7 @@ border-radius: 50%;
 
 /*Top Photo*/
 .jumbotron {
-  background: url("https://unsplash.it/1925/1280?image=360") no-repeat center center fixed;
+  background: url("background.jpg") no-repeat center center fixed;
   height: 100%;
   width: 100%;
   -webkit-background-size: cover;
